@@ -1,1 +1,1 @@
-web: dotnet exec ./cegAwsDemo.dll --urls http://0.0.0.0:5000/
+web: dotnet exec ./dotnetWebApp.dll --urls http://0.0.0.0:5000/
