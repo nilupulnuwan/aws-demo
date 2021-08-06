@@ -27,6 +27,7 @@ phases:
     commands:
       - echo Publish started on `date`
       - dotnet publish -c Release  -r linux-x64 -o ./build_output ./${PROJECT}/${PROJECT}.csproj --self-contained false
+      - cd ../
       - cp Procfile ./build_output
 
 artifacts:
